@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Moedas</h1>
+
+    <input type="number" id="valor" placeholder="Digite o valor em BRL">
+
+    <select id="moeda">
+      <option value="USD">Dólar (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="GBP">Libra Esterlina (GBP)</option>
+      <option value="JPY">Iene Japonês (JPY)</option>
+      <option value="ARS">Peso Argentino (ARS)</option>
+      <option value="CAD">Dólar Canadense (CAD)</option>
+    </select>
+
+    <button onclick="converter()">Converter</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
